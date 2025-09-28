@@ -1,0 +1,69 @@
+export CUDA_VISIBLE_DEVICES="0,1"
+
+# deepseek官方
+# checked
+PROMPT_TYPE="deepseek-math"
+MODEL_NAME_OR_PATH="/tmp/llm_file_save/deepseek/deepseek-math-7b-instruct"
+MAX_TOKENS_PER_CALL=4096
+TEMPERATURE=0
+NUM_TEST_SAMPLE=-1
+bash sh/my_eval.sh $PROMPT_TYPE $MODEL_NAME_OR_PATH $MAX_TOKENS_PER_CALL $TEMPERATURE $NUM_TEST_SAMPLE
+
+# deepseek官方
+# checked
+PROMPT_TYPE="deepseek-math"
+MODEL_NAME_OR_PATH="/tmp/llm_file_save/deepseek/deepseek-math-7b-rl"
+MAX_TOKENS_PER_CALL=4096
+TEMPERATURE=0
+NUM_TEST_SAMPLE=-1
+bash sh/my_eval.sh $PROMPT_TYPE $MODEL_NAME_OR_PATH $MAX_TOKENS_PER_CALL $TEMPERATURE $NUM_TEST_SAMPLE
+
+# checked
+PROMPT_TYPE="mistral"
+MODEL_NAME_OR_PATH="/tmp/llm_file_save/mistral/mistral-7b-sft"
+MAX_TOKENS_PER_CALL=4096
+TEMPERATURE=0
+NUM_TEST_SAMPLE=-1
+bash sh/my_eval.sh $PROMPT_TYPE $MODEL_NAME_OR_PATH $MAX_TOKENS_PER_CALL $TEMPERATURE $NUM_TEST_SAMPLE
+
+# checked
+PROMPT_TYPE="mistral"
+MODEL_NAME_OR_PATH="/tmp/llm_file_save/mistral/math-shepherd-mistral-7b-rl"
+MAX_TOKENS_PER_CALL=4096
+TEMPERATURE=0
+NUM_TEST_SAMPLE=-1
+bash sh/my_eval.sh $PROMPT_TYPE $MODEL_NAME_OR_PATH $MAX_TOKENS_PER_CALL $TEMPERATURE $NUM_TEST_SAMPLE
+
+# checked
+PROMPT_TYPE="qwen25-math-cot"
+MODEL_NAME_OR_PATH="/tmp/llm_file_save/qwen/Qwen2.5-7B-SFT"
+MAX_TOKENS_PER_CALL=8192
+TEMPERATURE=0
+NUM_TEST_SAMPLE=-1
+bash sh/my_eval.sh $PROMPT_TYPE $MODEL_NAME_OR_PATH $MAX_TOKENS_PER_CALL $TEMPERATURE $NUM_TEST_SAMPLE
+
+# checked
+PROMPT_TYPE="qwen25-math-cot"
+MODEL_NAME_OR_PATH="/tmp/llm_file_save/qwen/Qwen2.5-7B-DPO"
+MAX_TOKENS_PER_CALL=8192
+TEMPERATURE=0
+NUM_TEST_SAMPLE=-1
+bash sh/my_eval.sh $PROMPT_TYPE $MODEL_NAME_OR_PATH $MAX_TOKENS_PER_CALL $TEMPERATURE $NUM_TEST_SAMPLE
+
+# deepseek官方
+# checked
+PROMPT_TYPE="deepseek-math"
+MODEL_NAME_OR_PATH="/tmp/llm_file_save/nvidia-qwen/DeepSeek-R1-Distill-Qwen-7B"
+MAX_TOKENS_PER_CALL=32768
+TEMPERATURE=0
+NUM_TEST_SAMPLE=-1
+bash sh/my_eval.sh $PROMPT_TYPE $MODEL_NAME_OR_PATH $MAX_TOKENS_PER_CALL $TEMPERATURE $NUM_TEST_SAMPLE
+
+# nvidia官方
+# checked
+PROMPT_TYPE="deepseek-math"
+MODEL_NAME_OR_PATH="/tmp/llm_file_save/nvidia-qwen/AceReason-Nemotron-7B"
+MAX_TOKENS_PER_CALL=32768
+TEMPERATURE=0
+NUM_TEST_SAMPLE=-1
+bash sh/my_eval.sh $PROMPT_TYPE $MODEL_NAME_OR_PATH $MAX_TOKENS_PER_CALL $TEMPERATURE $NUM_TEST_SAMPLE
