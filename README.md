@@ -1,9 +1,5 @@
 # Reinforcement Learning Fine-Tuning Enhances Activation Intensity and Diversity in the Internal Circuitry of LLMs
 
-[![Conference](https://iclr.cc/static/core/img/iclr-navbar-logo.svg)](https://iclr.cc/)
-[![License](README/License-MIT-green.svg)]()
-[![Python](README/Python-3.11-yellow)]()
-
 This repository contains the official implementation for the paper **"Reinforcement Learning Fine-Tuning Enhances Activation Intensity and Diversity in the Internal Circuitry of LLMs"** (ICLR 2026).
 
 ![](assets/Schematic.png)
