@@ -1,12 +1,12 @@
 # Reinforcement Learning Fine-Tuning Enhances Activation Intensity and Diversity in the Internal Circuitry of LLMs
 
-[![Conference](README/ICLR-2026-blue.svg+xml)](https://openreview.net/)
+[![Conference](https://iclr.cc/static/core/img/iclr-navbar-logo.svg)](https://iclr.cc/)
 [![License](README/License-MIT-green.svg)]()
 [![Python](README/Python-3.11-yellow)]()
 
 This repository contains the official implementation for the paper **"Reinforcement Learning Fine-Tuning Enhances Activation Intensity and Diversity in the Internal Circuitry of LLMs"** (ICLR 2026).
 
-![]()
+![](assets/Schematic.png)
 
 ## 📂 Repository Structure
 
@@ -26,7 +26,7 @@ The repository is organized as follows:
 
 - Python >= 3.10
 - PyTorch >= 2.0
-- CUDA environment (Tested on NVIDIA A100)
+- CUDA Version: 12.2 (Tested on NVIDIA A100)
 
 ### Setup
 
