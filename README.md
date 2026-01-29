@@ -1,5 +1,9 @@
 # Reinforcement Learning Fine-Tuning Enhances Activation Intensity and Diversity in the Internal Circuitry of LLMs
 
+[![arXiv](https://img.shields.io/badge/arXiv-2509.21044-b31b1b.svg?logo=arxiv&logoColor=white)](https://arxiv.org/abs/2509.21044)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+
 This repository contains the official implementation for the paper **"Reinforcement Learning Fine-Tuning Enhances Activation Intensity and Diversity in the Internal Circuitry of LLMs"** (ICLR 2026).
 
 ![](assets/Schematic.png)
